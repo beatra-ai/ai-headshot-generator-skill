@@ -14,6 +14,10 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="一位虚构女性在咖啡馆的随手自拍（这张自拍本身也是为演示 AI 生成的），与据此生成的正装职业照和创业公司风格职业照并排，面部与发型保持一致。由 Beatra AI 生成。"></p>
+
+*一位虚构女性在咖啡馆的随手自拍（这张自拍本身也是为演示 AI 生成的），与据此生成的正装职业照和创业公司风格职业照并排，面部与发型保持一致。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`ai-headshot-studio`](skills/ai-headshot-studio) | [SKILL.md](skills/ai-headshot-studio/SKILL.md) | 0.1.4 |

@@ -14,6 +14,10 @@ Turn a casual selfie into a professional headshot with a new background, busines
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="A casual cafe selfie of a fictional woman (itself AI-generated for this demo) beside a corporate headshot and a startup headshot made from it, with her face and hair kept the same. AI-generated with Beatra."></p>
+
+*A casual cafe selfie of a fictional woman (itself AI-generated for this demo) beside a corporate headshot and a startup headshot made from it, with her face and hair kept the same. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`ai-headshot-studio`](skills/ai-headshot-studio) | [SKILL.md](skills/ai-headshot-studio/SKILL.md) | 0.1.4 |
