@@ -20,7 +20,7 @@ Turn a casual selfie into a professional headshot with a new background, busines
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-headshot-studio`](skills/ai-headshot-studio) | [SKILL.md](skills/ai-headshot-studio/SKILL.md) | 0.1.7 |
+| [`ai-headshot-studio`](skills/ai-headshot-studio) | [SKILL.md](skills/ai-headshot-studio/SKILL.md) | 0.2.0 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-headshot-studio). Report issues there.
 
@@ -78,12 +78,12 @@ Yes. Upload your selfie as the first image and a background reference as the sec
 
 Yes. Upload the accepted headshot, describe the adjustment—brighten lighting, smooth the background, or refine exposure—and the edit targets only that aspect without changing your identity or overall composition.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update ai-headshot-studio` or `gh skill update ai-headshot-studio`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
