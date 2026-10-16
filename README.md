@@ -54,6 +54,15 @@ As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
 - **Image to image** — 10 models (Qwen Image 2.0 Fast, Qwen Image 3.0, Qwen Image 3.0 Pro, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro, GPT Image 2.5 Flare, GPT Image 2.5 Sunburst, GPT Image 2, MiniMax Image 01 Live); up to 4 images per request; canvas up to 16777216 pixels
 - **Image editing** — 6 models (Qwen Image 2.0 Fast, Qwen Image 3.0, Qwen Image 3.0 Pro, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro); up to 4 images per request; canvas up to 4194304 pixels
 
+## Why use Beatra instead of calling model APIs directly
+
+- **One account for every model this skill uses** — Image to image 10; Image editing 6 (as of 2026-10-16), behind one Beatra sign-in; no keys from individual model providers to manage.
+- **You decide what gets paid for** — Paid renders run only when you ask for that exact render or approve its card, which shows the live credit estimate.
+- **Direction before rendering** — the skill plans, directs, and reviews the work, then renders it on Beatra.
+- **Files you can verify** — every file under `skills/` matches the release archive on cdn.beatra.ai byte for byte, checked by SHA-256 before each push.
+- **Updates you control** — no self-updater; update with the tool you installed it with.
+- **Runs in your agent** — Claude Code, Codex, OpenClaw.
+
 ## What you get
 
 - **Industry-aware styling** — Corporate gets a suit and navy background, tech gets smart casual and modern office, medical gets a white coat and clinical backdrop. The headshot matches the visual language of your profession.
@@ -103,3 +112,4 @@ ClawHub.
 - Website — https://beatra.ai
 - Docs — https://docs.beatra.ai
 - Console — https://console.beatra.ai
+- For AI agents — https://beatra.ai/llms.txt (index) · https://beatra.ai/llms-full.txt (every skill in one file)
