@@ -2,7 +2,7 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-Turn a casual selfie into a professional headshot with a new background, business attire, and studio lighting for resumes, company websites, career profiles, and social media, from inside Claude Code, Codex, or OpenClaw.
+Turn a casual selfie into a professional headshot with a new background, business attire, and studio lighting for resumes, company websites, career profiles, and social media, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
 > Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
@@ -10,9 +10,10 @@ Turn a casual selfie into a professional headshot with a new background, busines
 | Question | Answer |
 | --- | --- |
 | **What it does** | Turn a casual selfie into a studio-quality professional headshot with new backgrounds, professional attire, and studio lighting for LinkedIn, resume, company website, and social media. |
+| **Models** | Qwen Image 2.0 Fast, Qwen Image 3.0, Qwen Image 3.0 Pro, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro, GPT Image 2.5 Flare, GPT Image 2.5 Sunburst, GPT Image 2, MiniMax Image 01 Live |
 | **Requirements** | Python 3.10+ and an agent that loads `SKILL.md` |
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
-| **Works with** | Claude Code, Codex, OpenClaw |
+| **Works with** | Claude Code, Cursor, Codex, Windsurf, Cline, OpenClaw |
 
 <p align="center"><img src="assets/hero.webp" width="800" alt="A casual cafe selfie of a fictional woman (itself AI-generated for this demo) beside a corporate headshot and a startup headshot made from it, with her face and hair kept the same. AI-generated with Beatra."></p>
 
@@ -20,7 +21,7 @@ Turn a casual selfie into a professional headshot with a new background, busines
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-headshot-studio`](skills/ai-headshot-studio) | [SKILL.md](skills/ai-headshot-studio/SKILL.md) | 0.2.1 |
+| [`ai-headshot-studio`](skills/ai-headshot-studio) | [SKILL.md](skills/ai-headshot-studio/SKILL.md) | 0.2.2 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-headshot-studio). Report issues there.
 
@@ -39,7 +40,8 @@ gh skill install beatra-ai/ai-headshot-generator-skill ai-headshot-studio
 ```
 
 Or clone this repository and copy `skills/ai-headshot-studio` into `~/.claude/skills/` for Claude Code,
-`~/.agents/skills/` for Codex, or `~/.openclaw/skills/` for OpenClaw.
+`~/.cursor/skills/` for Cursor, `~/.agents/skills/` for Codex, `~/.codeium/windsurf/skills/` for Windsurf,
+`~/.cline/skills/` for Cline, or `~/.openclaw/skills/` for OpenClaw.
 
 Or paste this into your agent:
 
@@ -49,7 +51,7 @@ Install the ai-headshot-studio skill from https://github.com/beatra-ai/ai-headsh
 
 ## Technical Specifications & Output Limits
 
-As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
+As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 - **Uploads** — up to 100 MB per file; the per-model input limits below also apply
 - **Image to image** — 10 models (Qwen Image 2.0 Fast, Qwen Image 3.0, Qwen Image 3.0 Pro, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro, GPT Image 2.5 Flare, GPT Image 2.5 Sunburst, GPT Image 2, MiniMax Image 01 Live); PNG; up to 4 images per request; canvas up to 16.8 MP
@@ -61,12 +63,12 @@ As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
 
 ## Why use Beatra instead of calling model APIs directly
 
-- **One account for every model this skill uses** — Image to image 10; Image editing 6 (as of 2026-10-16), behind one Beatra sign-in; no keys from individual model providers to manage.
+- **One account for every model this skill uses** — Image to image 10; Image editing 6 (Qwen Image 2.0 Fast, Qwen Image 3.0, Qwen Image 3.0 Pro, Wan Image 2.7 Fast, Qwen Image 2.0 Pro, Wan Image 2.7 Pro, GPT Image 2.5 Flare, GPT Image 2.5 Sunburst, GPT Image 2, MiniMax Image 01 Live) (as of 2026-10-18), behind one Beatra sign-in; no keys from individual model providers to manage.
 - **You decide what gets paid for** — Paid renders run only when you ask for that exact render or approve its card, which shows the live credit estimate.
 - **Direction before rendering** — the skill plans, directs, and reviews the work, then renders it on Beatra.
 - **Files you can verify** — every file under `skills/` matches the release archive on cdn.beatra.ai byte for byte, checked by SHA-256 before each push.
 - **Updates you control** — no self-updater; update with the tool you installed it with.
-- **Runs in your agent** — Claude Code, Codex, OpenClaw.
+- **Runs in your agent** — Claude Code, Cursor, Codex, Windsurf, Cline, OpenClaw.
 
 ## What you get
 
