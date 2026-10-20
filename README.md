@@ -1,6 +1,8 @@
 # AI Headshot Generator Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [Photo to Anime Skill](https://github.com/beatra-ai/photo-to-anime-skill)
 
 Turn a casual selfie into a professional headshot with a new background, business attire, and studio lighting for resumes, company websites, career profiles, and social media, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 

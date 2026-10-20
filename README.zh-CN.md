@@ -1,6 +1,8 @@
 # AI Headshot Generator Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [Photo to Anime Skill](https://github.com/beatra-ai/photo-to-anime-skill)
 
 把一张日常自拍变成专业形象照，换上新背景、职业着装和影棚光效，适用于职场社交主页、简历、公司官网和社交媒体，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
