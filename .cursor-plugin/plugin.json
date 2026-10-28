@@ -1,0 +1,13 @@
+{
+  "name": "ai-headshot-studio",
+  "displayName": "AI Headshot Generator",
+  "description": "Turn a casual selfie into a studio-quality professional headshot with new backgrounds, professional attire, and studio lighting for LinkedIn, resume, company website, and social media.",
+  "version": "0.2.5",
+  "author": {
+    "name": "Beatra AI"
+  },
+  "homepage": "https://beatra.ai/skills/ai-headshot-studio",
+  "repository": "https://github.com/beatra-ai/ai-headshot-generator-skill",
+  "license": "MIT-0",
+  "logo": "assets/icon.png"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "ai-headshot-studio",
+  "displayName": "AI Headshot Generator",
+  "version": "0.2.5",
+  "description": "Turn a casual selfie into a studio-quality professional headshot with new backgrounds, professional attire, and studio lighting for LinkedIn, resume, company website, and social media.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/ai-headshot-studio",
+  "repository": "https://github.com/beatra-ai/ai-headshot-generator-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}
