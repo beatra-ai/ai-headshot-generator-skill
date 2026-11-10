@@ -62,6 +62,12 @@ copilot plugin install ai-headshot-studio@ai-headshot-generator-skill
 gemini extensions install https://github.com/beatra-ai/ai-headshot-generator-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-headshot-generator-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -75,6 +81,13 @@ gh skill install beatra-ai/ai-headshot-generator-skill ai-headshot-studio
 ```text
 从 https://github.com/beatra-ai/ai-headshot-generator-skill 安装 ai-headshot-studio skill（目录 skills/ai-headshot-studio），然后按它的 SKILL.md 连接我的 Beatra 账号。
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 图片：日常自拍或人像照，可附一张背景参考图 | JPG、PNG、WEBP | — |
+| **输出** | 图片：影棚级专业形象照 | PNG | 单次 1 张；2K；画幅 1:1、3:4、4:5 |
 
 ## 技术规格与输出限制
 
@@ -116,17 +129,17 @@ gh skill install beatra-ai/ai-headshot-generator-skill ai-headshot-studio
 
 可以。上传自拍，选择企业或科技风格，工具会将其转化为精致的专业形象照——干净背景、职业着装和影棚光效，专为 LinkedIn 圆形裁剪优化。
 
-### 生成后还会像本人吗？
+### 形象照会参照我的哪些特征？
 
-会的。变换保持你的脸型、肤色、瞳色和发型，同时升级背景、着装和光效。结果是一张影棚级形象照，依然清晰可辨是你本人。
+形象照以你的自拍为基础生成：脸型、肤色、瞳色和发型都参照自拍，背景、着装和光效是新做的。
 
 ### 能用指定的背景或办公场景吗？
 
-可以。把自拍作为第一张图上传，背景参考作为第二张图。工具会将你放入该职业场景中，同时保持你的身份特征。
+可以。把自拍作为第一张图上传，背景参考作为第二张图，形象照就放在那个场景里。
 
-### 能修复已认可形象照的光效或背景吗？
+### 能修改做好的形象照的光效或背景吗？
 
-可以。上传已认可的形象照，描述需要的调整——提亮光效、平滑背景或均衡曝光——编辑只针对该方面，不改变你的身份或整体构图。
+可以。上传这张形象照，说明要怎么调，比如提亮光效、平滑背景或均衡曝光，编辑只改这一处。
 
 ## 更新与安全
 
@@ -136,7 +149,9 @@ gh skill install beatra-ai/ai-headshot-generator-skill ai-headshot-studio
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-headshot-generator-skill)。
 
 ## 相关链接
 

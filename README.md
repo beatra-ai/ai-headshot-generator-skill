@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-headshot-generator-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-headshot-generator-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -77,6 +83,13 @@ Or paste this into your agent:
 ```text
 Install the ai-headshot-studio skill from https://github.com/beatra-ai/ai-headshot-generator-skill (folder skills/ai-headshot-studio), then follow its SKILL.md to connect my Beatra account.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Image — Casual selfie or portrait photo, plus an optional background reference | JPG, PNG, WEBP | — |
+| **Output** | Image — Studio-style professional headshot | PNG | 1 image per request; 2K; aspect ratios 1:1, 3:4, 4:5 |
 
 ## Technical Specifications & Output Limits
 
@@ -118,17 +131,17 @@ As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 Yes. Upload your selfie, choose the corporate or tech style, and the tool transforms it into a polished professional headshot with a clean background, professional attire, and studio lighting—optimized for the LinkedIn circular crop.
 
-### Will the headshot still look like me?
+### How is my face used?
 
-Yes. The transformation preserves your face shape, skin tone, eye color, and hair while upgrading the background, attire, and lighting. The result is a studio-quality headshot that remains recognizably you.
+The headshot is generated from your selfie: your face shape, skin tone, eye color, and hair guide the result, while the background, attire, and lighting are new.
 
 ### Can I use a specific background or office setting?
 
-Yes. Upload your selfie as the first image and a background reference as the second. The tool places you in that professional environment while preserving your identity.
+Yes. Upload your selfie as the first image and a background reference as the second, and the headshot is set in that environment.
 
-### Can I fix lighting or background on an accepted headshot?
+### Can I fix the lighting or background on a finished headshot?
 
-Yes. Upload the accepted headshot, describe the adjustment—brighten lighting, smooth the background, or refine exposure—and the edit targets only that aspect without changing your identity or overall composition.
+Yes. Upload the headshot and describe the adjustment, such as brighter lighting, a smoother background, or balanced exposure; the edit changes only that part.
 
 ## Updates and security
 
@@ -139,9 +152,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-headshot-generator-skill).
 
 ## Links
 

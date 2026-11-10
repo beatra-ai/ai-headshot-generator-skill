@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-headshot-generator-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-headshot-generator-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -75,6 +81,13 @@ gh skill install beatra-ai/ai-headshot-generator-skill ai-headshot-studio
 ```text
 https://github.com/beatra-ai/ai-headshot-generator-skill から ai-headshot-studio スキル（フォルダ skills/ai-headshot-studio）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
+
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | 画像：日常のセルフィーまたは人物写真と、任意の背景参考画像 | JPG、PNG、WEBP | — |
+| **出力** | 画像：スタジオ品質のヘッドショット | PNG | 1 リクエストにつき 1 枚／2K／アスペクト比 1:1、3:4、4:5 |
 
 ## 技術仕様と出力上限
 
@@ -107,17 +120,17 @@ https://github.com/beatra-ai/ai-headshot-generator-skill から ai-headshot-stud
 
 はい。セルフィーをアップロードし、コーポレートまたはテクノロジースタイルを選ぶと、クリーンな背景、プロフェッショナルな服装、スタジオライティングを備えた洗練されたヘッドショットに変換されます。LinkedInの円形クロップに最適化。
 
-### 変換後も自分に似ていますか？
+### 自分の顔はどう使われますか？
 
-はい。変換はあなたの顔の形、肌のトーン、瞳の色、髪を維持しながら、背景、服装、ライティングをアップグレードします。結果はあなただと明確に認識できるスタジオ品質のヘッドショットです。
+ヘッドショットはセルフィーをもとに生成します。顔の形、肌のトーン、瞳の色、髪はセルフィーを参考にし、背景、服装、ライティングを新しく作ります。
 
 ### 特定の背景やオフィスシーンを使えますか？
 
-はい。セルフィーを1枚目、背景参照を2枚目としてアップロード。アイデンティティを維持したまま、そのプロフェッショナルな環境に配置されます。
+はい。セルフィーを1枚目、背景の参考画像を2枚目としてアップロードすると、その環境を背景にしたヘッドショットを作ります。
 
-### 承認済みヘッドショットのライティングや背景を修正できますか？
+### 完成したヘッドショットのライティングや背景を直せますか？
 
-はい。承認済みヘッドショットをアップロードし、調整内容（ライティングの明るさ、背景のスムージング、露出バランス）を指定すると、その部分だけが編集され、アイデンティティや全体的な構図は変わりません。
+はい。そのヘッドショットをアップロードし、ライティングを明るく、背景をなめらかに、露出を整えるなど調整内容を伝えると、その部分だけを編集します。
 
 ## 更新とセキュリティ
 
@@ -127,7 +140,9 @@ https://github.com/beatra-ai/ai-headshot-generator-skill から ai-headshot-stud
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-headshot-generator-skill)が適用されます。
 
 ## リンク
 

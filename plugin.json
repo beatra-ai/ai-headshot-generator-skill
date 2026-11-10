@@ -10,6 +10,20 @@
   "homepage": "https://beatra.ai/skills/ai-headshot-studio",
   "repository": "https://github.com/beatra-ai/ai-headshot-generator-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI headshot generator",
+    "professional headshot AI",
+    "AI portrait",
+    "LinkedIn headshot",
+    "AI professional photo",
+    "headshot maker",
+    "business portrait AI",
+    "resume photo generator",
+    "corporate headshot AI",
+    "AI suit photo",
+    "AI business headshot",
+    "profile picture generator"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +33,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/ai-headshot-studio",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use AI Headshot Studio to turn my selfie into a LinkedIn headshot. I'll attach the selfie; tech-startup style, square crop."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }
